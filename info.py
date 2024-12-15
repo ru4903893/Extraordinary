@@ -52,7 +52,7 @@ SHORTENER_API2 = environ.get("SHORTENER_API2", "232bab9ce253c4913085f9e879ad95f2
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortxlinks.xyz')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "23b0bffa8f0f3730af2c1f5f8d15409ffab4f04b")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shrinkme.io')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "7200"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -105,7 +105,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "")
+URL = environ.get("FQDN", "national-rosaleen-hassanaly4203-9a57d1bd.koyeb.app/")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
