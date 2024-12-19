@@ -46,7 +46,7 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://tinyurl.com/yvu7pbm4")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/RGV.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "232bab9ce253c4913085f9e879ad95f216c4c525")
+SHORTENER_API = environ.get("SHORTENER_API", "3bc174aa1bccad60857d8bfacce86296e6eb5aaf")
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shortxlinks.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "232bab9ce253c4913085f9e879ad95f216c4c525")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shortxlinks.com')
