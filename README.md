@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="https://envs.sh/1OR.jpg" alt="Jisshu-Auto-filter">
+  <img src="https://envs.sh/7e8.jpg" alt="Jisshu-Auto-filter">
 </p>
 <h1 align="center">
-  <a href="https://telegram.me/OtttHDFlix">Movie/Auto Filter Bot</a>
+  <a href="https://telegram.me/ottfilesender_bot">Movie/Auto Filter Bot</a>
 </h1>
 <img src="https://cdn.jsdelivr.net/gh/Jisshubot/Jisshubot/resources/hr.gif"/>
 
