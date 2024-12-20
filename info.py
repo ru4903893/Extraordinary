@@ -50,8 +50,8 @@ SHORTENER_API = environ.get("SHORTENER_API", "23b0bffa8f0f3730af2c1f5f8d15409ffa
 SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shrinkme.io')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "23b0bffa8f0f3730af2c1f5f8d15409ffab4f04b")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shrinkme.io')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "23b0bffa8f0f3730af2c1f5f8d15409ffab4f04b")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shrinkme.io')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "232bab9ce253c4913085f9e879ad95f216c4c525")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortxlinks.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -69,7 +69,7 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://envs.sh/1OR.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/7e8.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/1OU.jpg')).split()
@@ -106,7 +106,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "mammoth-pat-hassanaly4203-5dc0de26.koyeb.app/")
+URL = environ.get("FQDN", "")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
