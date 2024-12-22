@@ -46,13 +46,13 @@ IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://tinyurl.com/yvu7pbm4")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://envs.sh/RGV.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "23b0bffa8f0f3730af2c1f5f8d15409ffab4f04b")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shrinkme.io')
+SHORTENER_API = environ.get("SHORTENER_API", "232bab9ce253c4913085f9e879ad95f216c4c525")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'shortxlinks.com')
 SHORTENER_API2 = environ.get("SHORTENER_API2", "23b0bffa8f0f3730af2c1f5f8d15409ffab4f04b")
 SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'shrinkme.io')
 SHORTENER_API3 = environ.get("SHORTENER_API3", "232bab9ce253c4913085f9e879ad95f216c4c525")
 SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'shortxlinks.com')
-TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
+TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "7200"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
 #---------------------------------------------------------------
@@ -106,7 +106,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "envious-effie-hassanaly4201-4699f064.koyeb.app/")
+URL = environ.get("FQDN", "")
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
